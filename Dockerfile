@@ -1,7 +1,9 @@
 FROM denoland/deno:1.36.3
 
-COPY . .
+COPY ./senforsce .
 
-deno cache main.ts
+RUN deno task build
 
-CMD deno run --allo-net main.ts
+EXPOSE 8000
+
+CMD deno task start
