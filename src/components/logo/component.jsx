@@ -2,10 +2,10 @@ import * as d3 from "d3";
 import $ from 'jquery';
 import './logo.css';
 import  SvgLogo  from './logo.svg.js';
-import insertSVGIntoCurrentElement from './insert';
-import { getLetterASelector ,getLetterSSelector, getCircleSelector } from './selectors';
-import getCenter from './center-calculator';
-import updateAll from './gauge';
+import insertSVGIntoCurrentElement from './insert.js';
+import { getLetterASelector ,getLetterSSelector, getCircleSelector } from './selectors.js';
+import getCenter from './center-calculator.js';
+import updateAll from './gauge.js';
 
 
 import React, { Component } from 'react';
