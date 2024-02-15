@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: node, tag: latest}
+
+inputs:
+- name: as-website-source
+
+run:
+  path: ./npm-install-and-test.sh
+  dir: as-website-source

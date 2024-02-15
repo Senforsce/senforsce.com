@@ -1,0 +1,52 @@
+html , body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+}
+.logo {
+   display: block;
+   position: relative;
+}
+.logo svg {
+  width: 500px;
+  position: fixed;
+  pointer-events: none;
+  top: 25%;
+
+}
+
+.wall {
+  position: fixed;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#Circle {
+  fill: aliceblue;
+  stroke: white;
+  opacity: 0.8;
+}
+
+#Letter_A {
+  fill: coral;
+  stroke: white;
+  opacity: 0.98;
+}
+
+#Letter_S {
+  fill: crimson;
+  stroke: white;
+  opacity: 0.9
+}
+
+#Inner_S {
+  stroke: none;
+}
+
+
